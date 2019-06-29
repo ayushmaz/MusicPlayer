@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/list_item"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            tools:text="Old Town Road (Remix)"
+            android:id="@+id/song_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content">
+            <TextView
+
+                tools:text="Old Town Road (Remix)"
+                android:id="@+id/album_name"
+                android:textColor="@color/categoryTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+
+                android:text="-"
+                android:textColor="@color/categoryTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                tools:text="Lil Nas X featuring Billy Ray Cyrus"
+                android:textColor="@color/categoryTextColor"
+                android:id="@+id/singer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/play" />
+    </RelativeLayout>
+
+
+</LinearLayout>
